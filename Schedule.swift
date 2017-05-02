@@ -6,8 +6,10 @@
 //  Copyright © 2017 NANZI WANG. All rights reserved.
 //
 
+
 import Foundation
-class schedule {
-    var date = ""
-    var name = ""
+class scheduleItem {
+    var itemHour = 0
+    var itemMinute = 0
+    var itemCountDown = DateComponents()
 }

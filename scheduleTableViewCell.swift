@@ -8,17 +8,20 @@
 
 import UIKit
 
-class scheduleTableViewCell: UITableViewCell {
-
+class ScheduleTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var scheduleTime: UILabel!
+    @IBOutlet weak var scheduleCountDown: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }
