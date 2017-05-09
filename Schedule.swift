@@ -8,7 +8,7 @@
 
 
 import Foundation
-class scheduleItem {
+class scheduleItemModel {
     var itemHour = 0
     var itemMinute = 0
     var itemCountDown = DateComponents()
