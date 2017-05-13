@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035DA2B808D0C3ADFAFAA8EE /* Pods_CountDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B0709EC0C3994195A53574 /* Pods_CountDown.framework */; };
+		3D791A871EC1679000C9BE36 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D791A861EC1679000C9BE36 /* ClockViewController.swift */; };
 		3D826D061EAF0DF300457046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D826D051EAF0DF300457046 /* AppDelegate.swift */; };
-		3D826D081EAF0DF300457046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D826D071EAF0DF300457046 /* ViewController.swift */; };
+		3D826D081EAF0DF300457046 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D826D071EAF0DF300457046 /* HomeViewController.swift */; };
 		3D826D0B1EAF0DF300457046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D826D091EAF0DF300457046 /* Main.storyboard */; };
 		3D826D0D1EAF0DF300457046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D826D0C1EAF0DF300457046 /* Assets.xcassets */; };
 		3D826D101EAF0DF300457046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D826D0E1EAF0DF300457046 /* LaunchScreen.storyboard */; };
+		3D826D181EB02F0300457046 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D826D171EB02F0300457046 /* GoogleService-Info.plist */; };
+		3D826D431EB186A800457046 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D826D421EB186A800457046 /* Schedule.swift */; };
+		3D826D4A1EB1A85800457046 /* scheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D826D491EB1A85800457046 /* scheduleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190D4452ED782261E3A4795F /* Pods-CountDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDown/Pods-CountDown.debug.xcconfig"; sourceTree = "<group>"; };
+		3A88E661F43B3C649D88316F /* Pods-CountDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDown/Pods-CountDown.release.xcconfig"; sourceTree = "<group>"; };
+		3D791A861EC1679000C9BE36 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		3D826D021EAF0DF300457046 /* CountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D826D051EAF0DF300457046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D826D071EAF0DF300457046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D826D071EAF0DF300457046 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D826D0A1EAF0DF300457046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D826D0C1EAF0DF300457046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D826D0F1EAF0DF300457046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D826D111EAF0DF300457046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D826D171EB02F0300457046 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D826D421EB186A800457046 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		3D826D491EB1A85800457046 /* scheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = scheduleTableViewCell.swift; path = ../scheduleTableViewCell.swift; sourceTree = "<group>"; };
+		C9B0709EC0C3994195A53574 /* Pods_CountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035DA2B808D0C3ADFAFAA8EE /* Pods_CountDown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,9 @@
 			children = (
 				3D826D041EAF0DF300457046 /* CountDown */,
 				3D826D031EAF0DF300457046 /* Products */,
+				3D826D441EB186B100457046 /* Model */,
+				E4D5728C671E74F0957A8380 /* Pods */,
+				7D2D83BE1441948914B84912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,41 @@
 			isa = PBXGroup;
 			children = (
 				3D826D051EAF0DF300457046 /* AppDelegate.swift */,
-				3D826D071EAF0DF300457046 /* ViewController.swift */,
+				3D826D491EB1A85800457046 /* scheduleTableViewCell.swift */,
+				3D826D071EAF0DF300457046 /* HomeViewController.swift */,
+				3D791A861EC1679000C9BE36 /* ClockViewController.swift */,
 				3D826D091EAF0DF300457046 /* Main.storyboard */,
 				3D826D0C1EAF0DF300457046 /* Assets.xcassets */,
 				3D826D0E1EAF0DF300457046 /* LaunchScreen.storyboard */,
+				3D826D171EB02F0300457046 /* GoogleService-Info.plist */,
 				3D826D111EAF0DF300457046 /* Info.plist */,
 			);
 			path = CountDown;
+			sourceTree = "<group>";
+		};
+		3D826D441EB186B100457046 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D826D421EB186A800457046 /* Schedule.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7D2D83BE1441948914B84912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0709EC0C3994195A53574 /* Pods_CountDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D5728C671E74F0957A8380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				190D4452ED782261E3A4795F /* Pods-CountDown.debug.xcconfig */,
+				3A88E661F43B3C649D88316F /* Pods-CountDown.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D826D141EAF0DF300457046 /* Build configuration list for PBXNativeTarget "CountDown" */;
 			buildPhases = (
+				81B9AD69910C547907193056 /* [CP] Check Pods Manifest.lock */,
 				3D826CFE1EAF0DF300457046 /* Sources */,
 				3D826CFF1EAF0DF300457046 /* Frameworks */,
 				3D826D001EAF0DF300457046 /* Resources */,
+				51233B105C1B14E75AAF785C /* [CP] Embed Pods Frameworks */,
+				DB677265219703EBA0596043 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D826D101EAF0DF300457046 /* LaunchScreen.storyboard in Resources */,
+				3D826D181EB02F0300457046 /* GoogleService-Info.plist in Resources */,
 				3D826D0D1EAF0DF300457046 /* Assets.xcassets in Resources */,
 				3D826D0B1EAF0DF300457046 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +180,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51233B105C1B14E75AAF785C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDown/Pods-CountDown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B9AD69910C547907193056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB677265219703EBA0596043 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDown/Pods-CountDown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D826CFE1EAF0DF300457046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D826D081EAF0DF300457046 /* ViewController.swift in Sources */,
+				3D826D081EAF0DF300457046 /* HomeViewController.swift in Sources */,
+				3D826D431EB186A800457046 /* Schedule.swift in Sources */,
+				3D826D4A1EB1A85800457046 /* scheduleTableViewCell.swift in Sources */,
+				3D791A871EC1679000C9BE36 /* ClockViewController.swift in Sources */,
 				3D826D061EAF0DF300457046 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +360,7 @@
 		};
 		3D826D151EAF0DF300457046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190D4452ED782261E3A4795F /* Pods-CountDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87WHN6T97D;
@@ -274,6 +374,7 @@
 		};
 		3D826D161EAF0DF300457046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A88E661F43B3C649D88316F /* Pods-CountDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87WHN6T97D;
@@ -304,6 +405,7 @@
 				3D826D161EAF0DF300457046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

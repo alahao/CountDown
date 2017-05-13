@@ -11,5 +11,5 @@ import Foundation
 class scheduleItemModel {
     var itemHour = 0
     var itemMinute = 0
-    var itemCountDown = DateComponents()
+    var itemConvertMinute = 0
 }
